@@ -1,0 +1,72 @@
+footer {
+  background: var(--foot-gradient);
+  padding: 1rem 0;
+  padding-top: 3rem;
+}
+footer .footer-wrapper .footer-info .foot-logo {
+  width: 60px;
+}
+footer .footer-wrapper h4 {
+  color: var(--primary);
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+}
+footer .footer-wrapper .footer-info h4 {
+  margin-left: 0.5rem;
+}
+footer .footer-wrapper .quick-links h4,
+footer .footer-wrapper .contact-info h4 {
+  margin-top: 1rem;
+}
+footer .footer-wrapper .footer-info p {
+  margin: 0;
+}
+footer .footer-wrapper .uk-list {
+  padding-top: 0.6rem;
+}
+footer .footer-wrapper .wrapper {
+  margin-top: 0.5rem !important;
+}
+footer .footer-wrapper .quick-links li {
+  display: flex;
+}
+footer .footer-wrapper .quick-links li svg,
+footer .footer-wrapper .contact-info li svg {
+  color: var(--primary);
+}
+footer .footer-wrapper .quick-links li span,
+footer .footer-wrapper .contact-info li span {
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: var(--transition);
+  cursor: pointer;
+}
+footer .footer-wrapper .quick-links li span a {
+  color: #666;
+}
+footer .footer-wrapper .quick-links li:hover span,
+footer .footer-wrapper .contact-info li:hover span {
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+footer .foot {
+  background: var(--primary);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer .foot .social-media a,
+footer .foot .copyright a,
+footer .foot .copyright span {
+  color: #fff;
+  transition: var(--transition);
+}
+footer .foot .copyright a:hover {
+  letter-spacing: 1px;
+}
+
+footer .foot .social-media a:hover {
+  transform: translateY(-5px);
+}
